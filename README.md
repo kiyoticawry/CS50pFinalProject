@@ -14,9 +14,4 @@
     
     
     
-# Set up 
- 1. get an API key, for example in google cloud platform or IEX cloud
- 2. make and copy the API key
- 3. in command line: export={PUT API KEY HERE}
- 4. In command line: flask run
-   
+
