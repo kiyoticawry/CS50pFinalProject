@@ -1,0 +1,11 @@
+pandas
+matplotlib
+numpy
+seaborn
+sys
+re
+random
+itertools
+time
+pyfiglet
+datetime    
