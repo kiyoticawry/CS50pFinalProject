@@ -12,6 +12,8 @@ This program is also tailored to the specific problems I encountered in making t
 
 Lastly, the program doesnt do any math, It only fixes/plots the data as to be seen in heatmap or bar or plotted line on a PNG
     
-    
+# Set up
+1.```pip install -r requirments.txt```
+2.```python HabitualTracker.py```
     
 
