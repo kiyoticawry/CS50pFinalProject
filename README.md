@@ -22,5 +22,5 @@ In codespaces plt.show() will not show
 
 you will need to run the repository on your local machine instead of codespaces
   
-this program has been changed such that it wont save a png File but instead plt.show()
+                    this program has been changed such that it wont save a png File but instead plt.show()
 
