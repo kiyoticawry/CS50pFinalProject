@@ -14,6 +14,7 @@ Lastly, the program doesnt do any math, It only fixes/plots the data as to be se
     
 # Set up
 1.```pip install -r requirments.txt```
+
 2.```python HabitualTracker.py```
     
 
