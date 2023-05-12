@@ -1,4 +1,13 @@
 # Habitual Tracker
+
+
+
+
+https://github.com/kiyoticawry/CS50pFinalProject/assets/112307652/98f5afd1-2af0-479f-956a-b0865d753241
+
+
+
+# Full video link
     #### Video Demo:  https://youtu.be/x2suBwpqh_s
     #### Description:
 This is a simple program that takes in a CSV file in a format of (date,scale) yyyy-mm-dd,int 0 - 9 and then produces either a heatmap, a bar or a plotted line in a graph. However due to limitations in the cs50 codespace it will only save a png file showcasing the data instead of show() Nonetheless the user Still needs to have actual data for the program to work with. The user could manually type in his data or run a program that makes it WHENEVER he does a habit of his choosing. Do note that Scale is not a measurement of anything other than whether the User has done a habit or a task. A habit adding 1 to the scale and a task adding 0.5 to it Yet, the user can still decide any sort of scale measurement on his own so long as it is an int between 0 - 9.
