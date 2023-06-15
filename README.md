@@ -32,4 +32,7 @@ In codespaces plt.show() will not show
 you will need to run the repository on your local machine instead of codespaces
   
                     this program has been changed such that it wont save a png File but instead plt.show()
+# Certificate
+
+![image](https://github.com/kiyoticawry/CS50pFinalProject/assets/112307652/7b685ada-c68e-4f0c-ac6b-073ff30c59ab)
 
