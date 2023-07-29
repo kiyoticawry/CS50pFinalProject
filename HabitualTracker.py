@@ -267,11 +267,11 @@ def main():
             while True:
                 match input(figlet.renderText('do you want to overwrite the original? [Y/N]')).lower():
                     case 'y':
-                        data.to_csv(csv, index=False)
+                        data.to_csv('csv/' + csv, index=False)
                         break
                     case 'n':
                         csv = input(figlet.renderText('what is the name of the csv file?'))
-                        data.to_csv(csv + '.csv', index=False)
+                        data.to_csv('csv/' + csv + '.csv', index=False)
                         break
                     case _:
                         continue
