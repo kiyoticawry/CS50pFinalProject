@@ -321,7 +321,7 @@ def main():
              while True:
                 match input('do you want to overwrite the original? [Y/N]').lower():
                     case 'y':
-                        data.to_csv(csv, index=False)
+                        data.to_csv('csv/' + csv, index=False)
                         break
                     case 'n':
                         csv = input('what is the name of the csv file?')
