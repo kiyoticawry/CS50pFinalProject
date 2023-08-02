@@ -325,7 +325,7 @@ def main():
                         break
                     case 'n':
                         csv = input('what is the name of the csv file?')
-                        data.to_csv(csv + '.csv', index=False)
+                        data.to_csv('csv/' + csv + '.csv', index=False)
                         break
                     case _:
                         continue
