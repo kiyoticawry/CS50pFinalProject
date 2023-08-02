@@ -159,6 +159,19 @@ def check_data(data):  # doesnt check the year
 
 
 def organize_data(data):  # has limitations like cant check if scale number is NONE or if theres lacking of commas
+
+    #### Extra code I wrote to specify the habit ####
+    if 'specified' in data.columns:
+        #choose among the 3 strings
+        #' walked the dog'
+        #' learned russian '
+        #' brush teeth'
+        data = data[data.specified == ' walked the dog']# <== THEN copy paste them here INCLUDING ' '
+        data = data.drop(columns='specified')
+    
+    #### this is not included in the original ####
+
+    
     tmp = []
     temp = []
 
